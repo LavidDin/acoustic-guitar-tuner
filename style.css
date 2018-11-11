@@ -4,6 +4,7 @@ html {
   font-size: 10px;
   background: url("images/acoustic-guitar.jpg") top center;
   background-size: cover;
+  background-repeat:no-repeat;
   font-family: 'Ubuntu Mono', monospace;
 }
 
@@ -62,8 +63,19 @@ kbd {
   color: #03b8e6;
 }
 
+.footer {
+  font-size: 25px;
+  color: #1f1f1f;
+}
+
 a:link {
   color: #03b8e6; 
   background-color: transparent; 
   text-decoration: none;
+}
+
+a:hover {
+  color: rgb(72, 28, 153);
+  background-color: transparent;
+  text-decoration: underline;
 }
